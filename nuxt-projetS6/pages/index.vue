@@ -26,7 +26,13 @@ onMounted(() => {
     <BannerSecurity />
     </div>
 
-   
+    <div class="bg__home__content-podcast">
+      <PodcastSection />
+    </div>
+
+    <LigneSepare/>
+
+    
     
   </div>
 </template>
@@ -88,7 +94,7 @@ onMounted(() => {
 
 
       @include small-down() {
-        font-size: 1.5em;
+        font-size: 1em;
       }
     }
 
