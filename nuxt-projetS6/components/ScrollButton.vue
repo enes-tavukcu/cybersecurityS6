@@ -33,6 +33,11 @@ import { ref } from "vue";
   cursor: pointer;
   transition: background 0.3s;
 
+  @include small-down() {
+    padding: 8px 16px;
+    width: 125px;
+  }
+
   &:hover {
     background-color: rgba(0, 255, 0, 0.3);
   }
@@ -41,6 +46,10 @@ import { ref } from "vue";
     font-size: 1.2rem;
     color: #00ff00;
     font-weight: bold;
+
+    @include small-down() {
+      font-size: 0.6rem;
+    }
   }
 
   &__icon {
@@ -54,11 +63,9 @@ import { ref } from "vue";
   .button-arrow {
     padding: 8px 16px;
   }
-  .button-arrow__text {
-    font-size: 1rem;
-  }
+  
   .button-arrow__icon {
-    font-size: 1.2rem;
+    font-size: 0.9rem;
   }
 }
 </style>
