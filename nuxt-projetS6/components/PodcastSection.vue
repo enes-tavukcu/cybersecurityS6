@@ -2,7 +2,7 @@
 <body>
     <div class="video-page">
       <div class="video-page-header">
-        <h1 class="video-page-header-title">Découvrez notre Podcast sur une tierlist</h1>
+        <h1 class="video-page-header-title">Découvrez notre Podcast avec une tierlist</h1>
         <div class="video-description">
          <div class="header-left">
           <img src="@/assets/MiniaEmission.jpg">

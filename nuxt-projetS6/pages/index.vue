@@ -30,9 +30,14 @@ onMounted(() => {
       <PodcastSection />
     </div>
 
+    
     <LigneSepare/>
 
-    
+    <TroisValeurs/> 
+
+    <LigneSepare/> 
+   
+    <ArticlesComposant/> 
     
   </div>
 </template>
