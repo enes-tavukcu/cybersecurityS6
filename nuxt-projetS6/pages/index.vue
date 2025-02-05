@@ -38,7 +38,10 @@ onMounted(() => {
     <LigneSepare/> 
    
     <ArticlesComposant/> 
-    
+
+    <!-- <LigneSepare/> -->
+
+    <QuizCyber/>     
   </div>
 </template>
 
