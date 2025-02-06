@@ -43,7 +43,7 @@ const closeMobileMenu = () => {
 
       <nav class="header__menu">
         <NuxtLink to="/" class="header__menu-item">Accueil</NuxtLink>
-        <NuxtLink to="/voyages" class="header__menu-item">Mes Voyages</NuxtLink>
+        <NuxtLink to="/tableau" class="header__menu-item">Emission</NuxtLink>
         <NuxtLink to="/invitations" class="header__menu-item"
           >Mes invitations</NuxtLink
         >
@@ -57,8 +57,8 @@ const closeMobileMenu = () => {
         <NuxtLink to="/" class="header__menu-item" @click="closeMobileMenu"
           >Accueil</NuxtLink
         >
-        <NuxtLink to="/voyages" class="header__menu-item" @click="closeMobileMenu"
-          >Mes Voyages</NuxtLink
+        <NuxtLink to="/tableau" class="header__menu-item" @click="closeMobileMenu"
+          >Emission</NuxtLink
         >
         <NuxtLink
           to="/"

@@ -35,13 +35,21 @@ onMounted(() => {
 
     <TroisValeurs/> 
 
+    <LigneSepare/>  
+
+    <TroisDonnees/> 
+
     <LigneSepare/> 
    
     <ArticlesComposant/> 
 
-    <!-- <LigneSepare/> -->
+    <QuizCyber/> 
 
-    <QuizCyber/>     
+    <LigneSepare/>
+
+    <PhishingGame/> 
+
+    <FooterApp/> 
   </div>
 </template>
 
