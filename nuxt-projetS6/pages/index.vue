@@ -1,13 +1,17 @@
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+// import { ref, onMounted } from "vue";
 
-const isLoading = ref(true);
+// const isLoading = ref(true);
 
-onMounted(() => {
-  setTimeout(() => {
-    isLoading.value = false;
-  }, 3000); // Durée du chargement
-});
+// onMounted(() => {
+//   setTimeout(() => {
+//     isLoading.value = false;
+//   }, 3000); // Durée du chargement
+// });
+const podcastSection = ref<HTMLElement | null>(null);
+const scrollToPodcast = () => {
+  podcastSection.value?.scrollIntoView({ behavior: "smooth" });
+};
 </script>
 
 <template>
@@ -20,15 +24,20 @@ onMounted(() => {
       <p class="bg__home__content-text">
         Découvrez la cybersécurité tout en vous divertissant.
       </p>
-      <ScrollButton />
+      <p class="bg__home__content-text2">
+        avec Hack or Safe
+      </p>
+      <ScrollButton @click="scrollToPodcast"/>
     </div>
     <div class="bg__home__content-banner">  
     <BannerSecurity />
     </div>
 
-    <div class="bg__home__content-podcast">
-      <PodcastSection />
-    </div>
+    <!-- <Timeline /> -->
+
+    <div ref="podcastSection" class="bg__home__content-podcast">
+  <PodcastSection />
+</div>
 
     
     <LigneSepare/>

@@ -3549,9 +3549,9 @@
 
 <style lang="scss">
 .svg_banner {
-  border-bottom: 1px solid #FFF;
+  // border-bottom: 1px solid #FFF;
     // background: linear-gradient(to right, #00000000, #00ff00, #00000000);
-    box-shadow: 0px 0px 65px rgba(255, 255, 255, 0.7);
+    // box-shadow: 0px 0px 65px rgba(255, 255, 255, 0.7);
 
     @include small-down() {
       height: 40vh;
