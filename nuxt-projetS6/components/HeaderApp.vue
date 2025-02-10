@@ -44,12 +44,7 @@ const closeMobileMenu = () => {
       <nav class="header__menu">
         <NuxtLink to="/" class="header__menu-item">Accueil</NuxtLink>
         <NuxtLink to="/tableau" class="header__menu-item">Emission</NuxtLink>
-        <NuxtLink to="/invitations" class="header__menu-item"
-          >Mes invitations</NuxtLink
-        >
-        <NuxtLink to="/profile" class="header__menu-item"
-          >Mon profil</NuxtLink
-        >
+        
         
       </nav>
 
@@ -60,15 +55,7 @@ const closeMobileMenu = () => {
         <NuxtLink to="/tableau" class="header__menu-item" @click="closeMobileMenu"
           >Emission</NuxtLink
         >
-        <NuxtLink
-          to="/"
-          class="header__menu-item"
-          @click="closeMobileMenu"
-          >Mes Invitations</NuxtLink
-        >
-        <NuxtLink to="/profile" class="header__menu-item"
-          >Mon profil</NuxtLink
-        >
+        
       </div>
 
       <div class="account">
@@ -102,7 +89,7 @@ const closeMobileMenu = () => {
     bottom: 0;
     left: 0;
     width: 100%;
-    height: 2px; /* Trait fin */
+    height: 1px; /* Trait fin */
     background: linear-gradient(to right, transparent, #00ff00, transparent);
     box-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7); /* Effet lumineux */
   }

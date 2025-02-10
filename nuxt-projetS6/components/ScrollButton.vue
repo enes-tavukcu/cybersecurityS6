@@ -5,9 +5,7 @@ import { ref } from "vue";
 <template>
   <div class="button-arrow">
     <span class="button-arrow__text">En savoir plus</span>
-    <div class="button-arrow__icon">
-      ↓
-    </div>
+    
   </div>
 </template>
 
