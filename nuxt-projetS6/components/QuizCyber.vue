@@ -200,11 +200,12 @@ const resetQuiz = (): void => {
   &__container {
     width: 90%;
     max-width: 600px;
-    background: #1e1e2f;
+    background: #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 142, 236, 0.5);
+    box-shadow: 0px 0px 20px rgb(145 145 145 / 50%);
     text-align: center;
+    border: linear-gradient(to bottom, #00ff00, black);
   }
 
   &__title {
@@ -234,18 +235,18 @@ const resetQuiz = (): void => {
   &__answer {
     background: transparent;
     color: white;
-    border: 2px solid rgb(61, 106, 255);
+    border: 2px solid rgb(0, 255, 0);
     padding: 10px;
     border-radius: 5px;
     cursor: pointer;
     transition: 0.3s;
 
     &:hover {
-      background: rgb(61, 106, 255);
+      background: rgba(0, 255, 0, 0.5);
     }
 
     &--selected {
-      background: rgb(0, 142, 236);
+      background: rgba(0, 255, 0, 0.3);
     }
 
     &--correct {
@@ -259,7 +260,7 @@ const resetQuiz = (): void => {
 
   &__validate,
   &__retry {
-    background: rgb(61, 106, 255);
+    background: rgb(0, 255, 0);
     color: white;
     padding: 10px;
     border: none;
@@ -269,7 +270,7 @@ const resetQuiz = (): void => {
     transition: 0.3s;
 
     &:hover {
-      background: rgb(0, 142, 236);
+      background: rgba(0, 255, 0, 0.5);
     }
   }
 

@@ -17,7 +17,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: #00ff00;
+    color: #ffffff;
     position: relative;
     z-index: 11;
 

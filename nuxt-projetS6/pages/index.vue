@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import ButtonSavoirplus from '~/components/ButtonSavoirplus.vue';
 
 // import { ref, onMounted } from "vue";
 
@@ -17,17 +16,17 @@ const scrollToPodcast = () => {
 </script>
 
 <template>
-   <div v-if="isLoading" class="bg">
+   <!-- <div v-if="isLoading" class="bg">
     <CardChargement />
-  </div>
+  </div> -->
 
-  <div v-else class="bg__home">
+  <div class="bg__home">
     <div class="bg__home__content">
       <p class="bg__home__content-text">
         Découvrez la cybersécurité tout en vous divertissant.
       </p>
       <p class="bg__home__content-text2">
-        avec Hack or Safe
+        Avec Hack or Safe plongez dans le monde de la cybersécurité !
       </p>
       <ButtonSavoirplus @click="scrollToPodcast"/>
     </div>
@@ -40,9 +39,11 @@ const scrollToPodcast = () => {
     <!-- <div ref="podcastSection" class="bg__home__content-podcast">
       <PodcastSection />
     </div> -->
-    
-    <TroisValeurs/> 
-    
+    <div ref="podcastSection" class="bg__home__content-podcast">
+
+    <TroisValeurs /> 
+    </div>  
+
     <LigneSepare/>
     
     <TroisDonnees/> 
@@ -96,6 +97,7 @@ const scrollToPodcast = () => {
   background-color: black;
 
   &__content {
+    padding-top: 60px;
     position: absolute;
     top: 30%;
     left: 50%;
@@ -110,12 +112,13 @@ const scrollToPodcast = () => {
         left: 5%;
         width: 300px;
         transform: translate(0%, 0%);
-        display: flex
-;
-        gap: 40px;
+        display: flex;
+        gap: 15px;
         flex-direction: column;
-
+        padding-top: 0px;
     }
+
+
     
     &-text {
       font-size: 3em;
@@ -125,10 +128,21 @@ const scrollToPodcast = () => {
 
 
       @include small-down() {
-        font-size: 1em;
+        font-size: 1.4em;
+        padding-top: 20px;
       }
     }
 
+    &-text2 {
+      font-size: 2em;
+      font-weight: 1000;
+      color: #ffffff;
+      animation: slideInLeft 1s ease-in-out;
+      
+      @include small-down() {
+        font-size: 1.1em;
+      }
+    }
     // &-banner {
     //   animation: slideInRight 1s ease-in-out;
 

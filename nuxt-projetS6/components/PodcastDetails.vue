@@ -152,12 +152,11 @@
     height: 250px;
     background-size: cover;
     background-position: center;
-    border: 1px solid rgba(0, 255, 128, 0.8);
-    // box-shadow: 0 0 15px #00ff00;
+    border: 2px solid; // Augmente la taille pour mieux voir le gradient
+    border-image: linear-gradient(to bottom, black, #00ff80) 1;
     border-radius: 10px;
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
-    cursor: pointer;
   
     &:hover {
       transform: scale(1.05);

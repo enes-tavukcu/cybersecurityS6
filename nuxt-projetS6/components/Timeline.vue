@@ -3,34 +3,34 @@ import { ref, onMounted } from "vue";
 
 const facts = ref([
   {
-    name: "Naissance d'Internet",
-    date: "1969",
-    description:
-      "Lancement d'ARPANET, le premier réseau de communication entre ordinateurs, ancêtre d'Internet.",
-  },
-  {
-    name: "Premier Virus Informatique",
-    date: "1986",
-    description:
-      "Création du virus 'Brain', le premier virus informatique connu ciblant les disquettes MS-DOS.",
-  },
-  {
-    name: "Création du Web",
+    name: "Naissance des ransomwares (AIDS Trojan)",
     date: "1989",
     description:
-      "Tim Berners-Lee invente le World Wide Web (WWW), marquant le début du web moderne.",
+      "Le premier ransomware connu, 'AIDS Trojan', est distribué via disquettes. Il exigeait une rançon de 189 $ pour débloquer les fichiers, marquant le début des attaques par rançongiciel.",
   },
   {
-    name: "Lancement de Google",
-    date: "1998",
+    name: "Le premier hacker recherché par le FBI (Kevin Mitnick)",
+    date: "1995",
     description:
-      "Larry Page et Sergey Brin lancent Google, révolutionnant la recherche d'informations sur Internet.",
+      "Kevin Mitnick, l'un des hackers les plus célèbres, est arrêté après avoir pénétré plusieurs systèmes gouvernementaux et entreprises. Son arrestation marque un tournant dans la lutte contre le cybercrime.",
   },
   {
-    name: "Attaque de Stuxnet",
-    date: "2010",
+    name: "La cyberattaque contre l'Estonie",
+    date: "2007",
     description:
-      "Le malware Stuxnet cible des infrastructures nucléaires, marquant un tournant dans la cyberguerre.",
+      "L'Estonie subit une cyberattaque massive, paralysant les banques, médias et services gouvernementaux. Cet événement est considéré comme l'un des premiers cyber-conflits entre nations.",
+  },
+  {
+    name: "Le piratage de Sony Pictures",
+    date: "2014",
+    description:
+      "Un groupe de hackers lié à la Corée du Nord attaque Sony Pictures, publiant des milliers de documents et menaçant la sortie du film 'The Interview'. Cet incident montre les risques des cyberattaques géopolitiques.",
+  },
+  {
+    name: "La fuite massive de données chez Facebook",
+    date: "2019",
+    description:
+      "Une base de données contenant plus de 540 millions de comptes Facebook fuit sur Internet, exposant les données personnelles des utilisateurs et mettant en lumière les problèmes de confidentialité.",
   },
 ]);
 
