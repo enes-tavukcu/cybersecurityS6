@@ -151,7 +151,7 @@ const closeMobileMenu = () => {
 
     &:hover {
 
-      color: #464646;
+      color: #00ff00;
       border-radius: rem(5px);
     }
   }
@@ -179,7 +179,7 @@ const closeMobileMenu = () => {
     @include medium-up() {
       position: absolute;
       top: 100%;
-      background: brown;
+      background: rgb(0, 0, 0);
 
       transition: transform 0.3s ease-out;
       transform: translateY(0);

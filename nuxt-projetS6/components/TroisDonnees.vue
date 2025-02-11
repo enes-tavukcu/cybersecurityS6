@@ -57,6 +57,9 @@ onMounted(() => {
           <span class="values__number">{{ formatNumber(displayValues.value1) }}</span>
         </div>
         <h3 class="values__title">Cyberattaques par jour</h3>
+        <p class="values__description">
+            Dans le monde numérique, les cyberattaques sont en constante augmentation.
+          </p>
       </div>
 
       <!-- Donnée 2 -->
@@ -65,6 +68,9 @@ onMounted(() => {
           <span class="values__number">{{ formatNumber(displayValues.value2) }}</span>
         </div>
         <h3 class="values__title">Données volées par an</h3>
+        <p class="values__description">
+            Les données volées sont une menace massive pour les entreprises et les personnes.
+        </p>
       </div>
 
       <!-- Donnée 3 -->
@@ -73,6 +79,9 @@ onMounted(() => {
           <span class="values__number">{{ formatNumber(displayValues.value3) }}</span>
         </div>
         <h3 class="values__title">Comptes piratés</h3>
+        <p class="values__description">
+            Plus de 800 millions de comptes ont été volés depuis 2009.
+        </p>
       </div>
     </div>
   </section>

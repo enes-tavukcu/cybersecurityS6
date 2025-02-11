@@ -14,7 +14,7 @@
   --btn-color: rgb(0, 80, 40);
 
   width: fit-content;
-  border: 0.25em solid var(--glow-color);
+  border: 0.20em solid var(--glow-color);
   padding: 1em 3em;
   color: var(--glow-color);
   font-size: 15px;

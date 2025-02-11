@@ -3597,6 +3597,7 @@
   width: auto;
   @include small-down() {
     height: 50vh;
+    padding-top: 75px;
 } 
  }
 </style>
