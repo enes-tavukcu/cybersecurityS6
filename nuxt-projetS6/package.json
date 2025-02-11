@@ -16,6 +16,7 @@
     "vue": "latest"
   },
   "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
     "swiper": "^11.2.2"
   }
 }

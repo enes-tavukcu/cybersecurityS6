@@ -1,6 +1,9 @@
 <template>
+        <h2 class="values__titre1">Nos trois valeurs</h2>
+
     <section class="values">
       <div class="values__container">
+        
         
         <!-- Sécurité -->
         <div class="values__item">
@@ -45,6 +48,14 @@
     justify-content: center;
     padding: 50px 20px;
     background-color: black;
+  
+    &__titre1 {
+      font-size: 2em;
+      font-weight: 1000;
+      color: #ffffff;
+      text-align: center;
+      margin-top: 20px;
+    }
   
     &__container {
       display: flex;
