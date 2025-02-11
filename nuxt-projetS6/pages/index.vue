@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import ButtonSavoirplus from '~/components/ButtonSavoirplus.vue';
+
 // import { ref, onMounted } from "vue";
 
 // const isLoading = ref(true);
@@ -27,7 +29,7 @@ const scrollToPodcast = () => {
       <p class="bg__home__content-text2">
         avec Hack or Safe
       </p>
-      <ScrollButton @click="scrollToPodcast"/>
+      <ButtonSavoirplus @click="scrollToPodcast"/>
     </div>
     <div class="bg__home__content-banner">  
     <BannerSecurity />
@@ -35,28 +37,32 @@ const scrollToPodcast = () => {
 
     <!-- <Timeline /> -->
 
-    <div ref="podcastSection" class="bg__home__content-podcast">
-  <PodcastSection />
-</div>
-
+    <!-- <div ref="podcastSection" class="bg__home__content-podcast">
+      <PodcastSection />
+    </div> -->
+    
+    <TroisValeurs/> 
     
     <LigneSepare/>
-
-    <TroisValeurs/> 
-
-    <LigneSepare/>  
-
+    
     <TroisDonnees/> 
+    
+    <!-- <LigneSepare/>   -->
+    <BannerEmission />
 
-    <LigneSepare/> 
+    <!-- <LigneSepare/>  -->
+    
+    <Timeline/> 
    
+    <LigneSepare/>
+
     <ArticlesComposant/> 
 
     <QuizCyber/> 
 
-    <LigneSepare/>
+    <!-- <LigneSepare/> -->
 
-    <PhishingGame/> 
+    <!-- <PodcastDetails/>  -->
 
     <FooterApp/> 
   </div>

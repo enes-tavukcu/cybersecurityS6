@@ -68,8 +68,7 @@
       padding: 40px 20px;
       background: #000000;
       color: white;
-      box-shadow: 0px 35px 77px 50px rgba(0, 255, 0, 0.8)
-    }
+      box-shadow: 0px 35px 77px 50px rgb(0, 0, 0);   }
   
     &__heading {
       font-size: 24px;

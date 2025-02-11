@@ -47,6 +47,8 @@ onMounted(() => {
 </script>
 
 <template>
+          <h2 class="values__titre1">Les trois données impressionnantes</h2>
+
   <section class="values" ref="valuesSection">
     <div class="values__container">
       <!-- Donnée 1 -->
