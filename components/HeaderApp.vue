@@ -151,7 +151,7 @@ const closeMobileMenu = () => {
 
     &:hover {
 
-      color: #00ff00;
+      color: $vert;
       border-radius: rem(5px);
     }
   }

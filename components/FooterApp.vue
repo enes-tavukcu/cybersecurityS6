@@ -12,23 +12,19 @@
           <div class="footer__section footer__section--categories">
             <h6 class="footer__title">Catégories</h6>
             <ul class="footer__links">
-              <li><a href="#">C</a></li>
-              <li><a href="#">UI Design</a></li>
-              <li><a href="#">PHP</a></li>
-              <li><a href="#">Java</a></li>
-              <li><a href="#">Android</a></li>
-              <li><a href="#">Templates</a></li>
+              <NuxtLink class="footer__link" to="/">Accueil</NuxtLink>
+              <NuxtLink class="footer__link" to="/tableau">Emission</NuxtLink>
+              
             </ul>
           </div>
   
           <div class="footer__section footer__section--links">
             <h6 class="footer__title">Liens rapides</h6>
             <ul class="footer__links">
-              <li><a href="#">À propos</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Contribuer</a></li>
-              <li><a href="#">Politique de confidentialité</a></li>
-              <li><a href="#">Plan du site</a></li>
+              <NuxtLink class="footer__link" to="https://www.playstation.com/fr-fr/support/account/security-best-practice-psn/">Sécuriser ses comptes</NuxtLink>
+              <NuxtLink class="footer__link" to="https://www.malwarebytes.com/wp-content/uploads/sites/2/2024/05/phishing.webp?w=1024">Phishing</NuxtLink>
+              <NuxtLink class="footer__link" to="https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/phishing-hameconnage-soyez-vigilant-sur-les-informations-que-vous#:~:text=Acc%C3%A8s%20frauduleux%20%C3%A0%20un%20syst%C3%A8me,de%2060.000%20euros%20d'amende.">Sécuriser ses mots de passe</NuxtLink>
+              
             </ul>
           </div>
         </div>
@@ -43,7 +39,7 @@
   
   <style lang="scss">
   .footer {
-    background-color: #26272b;
+    background-color: $black;
     padding: 45px 20px;
     color: #737373;
   
@@ -81,6 +77,8 @@
     &__links {
       list-style: none;
       padding: 0;
+      display: flex;
+    flex-direction: column;
   
       li {
         margin-bottom: 5px;
@@ -90,7 +88,7 @@
         color: #737373;
         text-decoration: none;
         &:hover {
-          color: #00ff00;
+          color: $vert;
         }
       }
     }

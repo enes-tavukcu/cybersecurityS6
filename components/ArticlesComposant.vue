@@ -140,7 +140,7 @@
       right: 10px;
       padding: 10px 20px;
       border-radius: 7px;
-      border: 1px solid #00ff00;
+      border: 1px solid $vert;
       font-size: 14px;
       text-transform: uppercase;
       font-weight: 600;

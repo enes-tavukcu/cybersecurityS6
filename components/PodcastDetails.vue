@@ -120,7 +120,7 @@
     text-align: center;
     font-size: 2rem;
     font-weight: bold;
-    color: #00ff00;
+    color: $vert;
     // margin-bottom: 20px;
   }
   .tierlist {
@@ -186,7 +186,7 @@
   h3 {
     font-size: 1.2rem;
     font-weight: bold;
-    color: #0f0;
+    color: $vert;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -85,7 +85,7 @@
   &__button {
     display: inline-block;
     padding: 10px 20px;
-    background: #00ff00;
+    background: $vert;
     color: black;
     font-weight: bold;
     text-transform: uppercase;

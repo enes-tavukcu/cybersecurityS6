@@ -91,7 +91,7 @@
   border-radius: 50%;
   background: black;
   border: 1px solid transparent;
-  background-image: linear-gradient(black, black), linear-gradient(to bottom, #00ff00, black);
+  background-image: linear-gradient(black, black), linear-gradient(to bottom, $vert, black);
   background-origin: border-box;
   background-clip: content-box, border-box;
   box-shadow: inset 0 0 10px rgba(0, 255, 0, 0.7);
@@ -99,7 +99,7 @@
 
   &:hover {
     background: black;
-    border: 1px solid #00ff00;
+    border: 1px solid $vert;
     box-shadow: inset 0 0 10px rgba(0, 255, 0, 1);
     background-color: rgba(0, 255, 0, 0.1);
     transition: background-color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, border 0.3s ease-in-out;
@@ -121,7 +121,7 @@
       margin-top: 15px;
       font-size: 18px;
       font-weight: bold;
-      color: #00ff00;
+      color: $vert;
     }
   
     &__description {

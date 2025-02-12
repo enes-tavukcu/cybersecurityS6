@@ -27,7 +27,7 @@ import { ref } from "vue";
   padding: 10px 20px;
   background-color: rgba(0, 255, 0, 0.2);
   border-radius: 8px;
-  border: 1px solid #00ff00;
+  border: 1px solid $vert;
   cursor: pointer;
   transition: background 0.3s;
 
@@ -42,7 +42,7 @@ import { ref } from "vue";
 
   &__text {
     font-size: 1.2rem;
-    color: #00ff00;
+    color: $vert;
     font-weight: bold;
 
     @include small-down() {
@@ -52,7 +52,7 @@ import { ref } from "vue";
 
   &__icon {
     font-size: 1.5rem;
-    color: #00ff00;
+    color: $vert;
     animation: arrowMove 1s infinite ease-in-out;
   }
 }

@@ -89,7 +89,7 @@ onMounted(() => {
     position: absolute;
     width: 1px;
     height: 100%;
-    background: linear-gradient(to bottom, transparent, #00ff00, transparent);
+    background: linear-gradient(to bottom, transparent, $vert, transparent);
     box-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);
     left: 50%;
     transform: translateX(-50%);
@@ -167,7 +167,7 @@ onMounted(() => {
   &__title {
     font-size: 1.5em;
     font-weight: bold;
-    color: #0f0;
+    color: $vert;
   }
 
   &__date {
@@ -185,7 +185,7 @@ onMounted(() => {
   &__point {
     width: 12px;
     height: 12px;
-    background: #00ff00;
+    background: $vert;
     border-radius: 50%;
     box-shadow: 0px 0px 8px rgba(0, 255, 0, 0.7);
     position: absolute;

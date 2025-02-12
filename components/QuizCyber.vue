@@ -205,7 +205,7 @@ const resetQuiz = (): void => {
     border-radius: 10px;
     box-shadow: 0px 0px 20px rgb(145 145 145 / 50%);
     text-align: center;
-    border: linear-gradient(to bottom, #00ff00, black);
+    border: linear-gradient(to bottom, $vert, black);
   }
 
   &__title {
