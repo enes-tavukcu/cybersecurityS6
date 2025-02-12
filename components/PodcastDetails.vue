@@ -158,9 +158,9 @@
     overflow: hidden;
     transition: transform 0.3s ease-in-out;
   
-    &:hover {
-      transform: scale(1.05);
-    }
+    // &:hover {
+    //   transform: scale(1.05);
+    // }
   }
   
   .tierlist__overlay {
